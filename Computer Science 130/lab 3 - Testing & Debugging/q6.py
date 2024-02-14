@@ -1,0 +1,1 @@
+def apply_gst(prices_list): prices_list[:] = [num * 1.15 for num in prices_list]

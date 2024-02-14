@@ -1,0 +1,4 @@
+Auckland,January,228.8
+Auckland,February,194.9
+Auckland,March,189.2
+Auckland,April,157.3

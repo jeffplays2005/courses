@@ -4,6 +4,7 @@ A Python programming course at The University of Auckland. Twenty labs were comp
 # Assignments
 - Assignment 1
   - Number tile game
+- Assignment 2
   - Mini wordle game
 
 # Involves the following topics:
