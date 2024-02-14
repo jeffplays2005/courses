@@ -1,0 +1,23 @@
+Logic part 1:
+• we need a character map
+  - Prevents us from having more characters then required
+  E.g.
+  Word: belle
+  Guessed: beeee
+  Output(without character map): B E e e E
+  Output(using character map) B E _ _ E
+• we need to check for the exact positions
+  - We need to go through the guessed word twice.
+    Reason is because we need to get the exact correct letter and correct position first,
+    then we get the correct letter but wrong position(**subject to the character map**)
+  E.g.
+  Word: belle
+  Guessed: beeee
+  Wrong logic:
+  Go through all at once with:
+  if(guess[pos] == correct[pos]):
+    output[pos] = guess[pos].upper()
+  elif(guess[pos] in correct):
+    output[pos] = guess[pos].lower()
+  This will be wrong
+  Correct logic:

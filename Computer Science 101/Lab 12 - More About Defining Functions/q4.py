@@ -1,0 +1,3 @@
+def print_exit_message():
+    print("""Exiting the currency converter...
+Have a good day!""")
