@@ -1,0 +1,11 @@
+# Automated reviews labels
+# Can use https://github.com/abinoda/label-when-approved-action to automatically label
+# PRs when they are approved. This is useful for automating the process of merging PRs.
+
+steps:
+  - name: Label when approved
+    uses: pullreminders/label-when-approved-action@main
+    env:
+      APPROVALS: "1"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ADD_LABEL: "approved"
