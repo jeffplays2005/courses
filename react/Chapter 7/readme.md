@@ -1,11 +1,14 @@
 # Chapter 7
+
 React adding interactivity with state and event handlers
 
 # Props
-* Read only info
-* Passed to components
+
+- Read only info
+- Passed to components
 
 ## Hooks
+
 Allows adding additional logic such as a state.
 States - info that UI changes over time, usually by user
 E.g. number of likes, button toggle
